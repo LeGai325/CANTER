@@ -1,0 +1,16 @@
+{
+  "schema": "canter-release-audit-v1",
+  "passed": true,
+  "source_syntax_checks": {
+    "python": 167,
+    "json": 31,
+    "toml": 1,
+    "markdown_local_links": 40
+  },
+  "known_personal_identifier_matches": 0,
+  "credential_pattern_matches": 0,
+  "unexpected_binary_files": 0,
+  "excluded_private_files": 0,
+  "third_party_scorer_preserved": true,
+  "scope": "Static checks for this source export; not a guarantee against all possible identity inference."
+}

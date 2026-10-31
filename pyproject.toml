@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canter-review-snapshot"
+version = "0.2.0+review20261030"
+description = "Review snapshot of native-agent admission and role-aware networking"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["httpx==0.28.1", "ujson==5.11.0"]
+
+[project.optional-dependencies]
+experiment = ["httpx==0.28.1", "Jinja2==3.1.6", "tokenizers==0.23.3", "scikit-learn==1.9.1", "numpy==2.5.4", "scipy==1.18.1", "joblib==1.6.0", "pyarrow==26.0.0", "ujson==5.11.0"]
+analysis = ["matplotlib==3.11.2"]
+
+[tool.setuptools.packages.find]
+include = ["specnet*"]
+
+[tool.setuptools.package-data]
+"specnet.vendor" = ["*.json"]

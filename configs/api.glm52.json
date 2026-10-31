@@ -1,0 +1,14 @@
+{
+  "base_url": "https://api.example.invalid/v1",
+  "model": "glm-5.2",
+  "expected_response_model": "glm-5.2",
+  "api_key_env": "SPECNET_GLM_API_KEY",
+  "env_file": ".env",
+  "timeout_seconds": 180,
+  "temperature": 0,
+  "extra_body": {
+    "thinking": {
+      "type": "disabled"
+    }
+  }
+}

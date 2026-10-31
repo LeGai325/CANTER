@@ -1,0 +1,339 @@
+{
+  "source": "outputs/nq_typed_validation_20261017_r1/units/cal_nq_validation_0_shared_12000/attempt-0001/run/network/traffic.pcap",
+  "source_sha256": "b8c90a2f0e7ef9833d89647bf8430e809a10e385474865ff8294427bb19890c2",
+  "flow_id": "19003:32916",
+  "expected_wire_bytes": [
+    5587,
+    5682
+  ],
+  "expected_packet_counts": [
+    18,
+    18
+  ],
+  "packets": [
+    {
+      "ordinal": 1713,
+      "outgoing": false,
+      "seq": 2447277199,
+      "ack": 0,
+      "flags": 2,
+      "payload": 0,
+      "wire_bytes": 74
+    },
+    {
+      "ordinal": 1720,
+      "outgoing": true,
+      "seq": 1305236095,
+      "ack": 2447277200,
+      "flags": 18,
+      "payload": 0,
+      "wire_bytes": 74
+    },
+    {
+      "ordinal": 1721,
+      "outgoing": false,
+      "seq": 2447277200,
+      "ack": 1305236096,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 1726,
+      "outgoing": false,
+      "seq": 2447277200,
+      "ack": 1305236096,
+      "flags": 24,
+      "payload": 117,
+      "wire_bytes": 183
+    },
+    {
+      "ordinal": 1729,
+      "outgoing": true,
+      "seq": 1305236096,
+      "ack": 2447277317,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 1742,
+      "outgoing": true,
+      "seq": 1305236096,
+      "ack": 2447277317,
+      "flags": 24,
+      "payload": 145,
+      "wire_bytes": 211
+    },
+    {
+      "ordinal": 1743,
+      "outgoing": false,
+      "seq": 2447277317,
+      "ack": 1305236241,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 1744,
+      "outgoing": true,
+      "seq": 1305236241,
+      "ack": 2447277317,
+      "flags": 16,
+      "payload": 1448,
+      "wire_bytes": 1514
+    },
+    {
+      "ordinal": 1745,
+      "outgoing": false,
+      "seq": 2447277317,
+      "ack": 1305237689,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 1746,
+      "outgoing": true,
+      "seq": 1305237689,
+      "ack": 2447277317,
+      "flags": 24,
+      "payload": 1448,
+      "wire_bytes": 1514
+    },
+    {
+      "ordinal": 1747,
+      "outgoing": false,
+      "seq": 2447277317,
+      "ack": 1305239137,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 1748,
+      "outgoing": true,
+      "seq": 1305239137,
+      "ack": 2447277317,
+      "flags": 24,
+      "payload": 1200,
+      "wire_bytes": 1266
+    },
+    {
+      "ordinal": 1749,
+      "outgoing": false,
+      "seq": 2447277317,
+      "ack": 1305240337,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 1750,
+      "outgoing": true,
+      "seq": 1305240337,
+      "ack": 2447277317,
+      "flags": 24,
+      "payload": 25,
+      "wire_bytes": 91
+    },
+    {
+      "ordinal": 1751,
+      "outgoing": false,
+      "seq": 2447277317,
+      "ack": 1305240362,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 1752,
+      "outgoing": true,
+      "seq": 1305240362,
+      "ack": 2447277317,
+      "flags": 17,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 1759,
+      "outgoing": false,
+      "seq": 2447277317,
+      "ack": 1305240363,
+      "flags": 17,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 1780,
+      "outgoing": true,
+      "seq": 1305240363,
+      "ack": 2447277318,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2639,
+      "outgoing": false,
+      "seq": 2460489398,
+      "ack": 0,
+      "flags": 2,
+      "payload": 0,
+      "wire_bytes": 74
+    },
+    {
+      "ordinal": 2667,
+      "outgoing": true,
+      "seq": 1318448473,
+      "ack": 2460489399,
+      "flags": 18,
+      "payload": 0,
+      "wire_bytes": 74
+    },
+    {
+      "ordinal": 2668,
+      "outgoing": false,
+      "seq": 2460489399,
+      "ack": 1318448474,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2671,
+      "outgoing": false,
+      "seq": 2460489399,
+      "ack": 1318448474,
+      "flags": 24,
+      "payload": 118,
+      "wire_bytes": 184
+    },
+    {
+      "ordinal": 2675,
+      "outgoing": true,
+      "seq": 1318448474,
+      "ack": 2460489517,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2677,
+      "outgoing": true,
+      "seq": 1318448474,
+      "ack": 2460489517,
+      "flags": 24,
+      "payload": 145,
+      "wire_bytes": 211
+    },
+    {
+      "ordinal": 2678,
+      "outgoing": false,
+      "seq": 2460489517,
+      "ack": 1318448619,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2679,
+      "outgoing": true,
+      "seq": 1318448619,
+      "ack": 2460489517,
+      "flags": 16,
+      "payload": 1448,
+      "wire_bytes": 1514
+    },
+    {
+      "ordinal": 2680,
+      "outgoing": false,
+      "seq": 2460489517,
+      "ack": 1318450067,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2681,
+      "outgoing": true,
+      "seq": 1318450067,
+      "ack": 2460489517,
+      "flags": 24,
+      "payload": 1448,
+      "wire_bytes": 1514
+    },
+    {
+      "ordinal": 2682,
+      "outgoing": false,
+      "seq": 2460489517,
+      "ack": 1318451515,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2683,
+      "outgoing": true,
+      "seq": 1318451515,
+      "ack": 2460489517,
+      "flags": 24,
+      "payload": 1200,
+      "wire_bytes": 1266
+    },
+    {
+      "ordinal": 2684,
+      "outgoing": false,
+      "seq": 2460489517,
+      "ack": 1318452715,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2685,
+      "outgoing": true,
+      "seq": 1318452715,
+      "ack": 2460489517,
+      "flags": 24,
+      "payload": 119,
+      "wire_bytes": 185
+    },
+    {
+      "ordinal": 2686,
+      "outgoing": false,
+      "seq": 2460489517,
+      "ack": 1318452834,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2687,
+      "outgoing": true,
+      "seq": 1318452834,
+      "ack": 2460489517,
+      "flags": 17,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2696,
+      "outgoing": false,
+      "seq": 2460489517,
+      "ack": 1318452835,
+      "flags": 17,
+      "payload": 0,
+      "wire_bytes": 66
+    },
+    {
+      "ordinal": 2707,
+      "outgoing": true,
+      "seq": 1318452835,
+      "ack": 2460489518,
+      "flags": 16,
+      "payload": 0,
+      "wire_bytes": 66
+    }
+  ]
+}

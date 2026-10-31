@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/hotpotqa/hotpot",
+  "revision": "3635853403a8735609ee997664e1528f4480762a",
+  "file": "hotpot_evaluate_v1.py",
+  "url": "https://raw.githubusercontent.com/hotpotqa/hotpot/3635853403a8735609ee997664e1528f4480762a/hotpot_evaluate_v1.py",
+  "sha256": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0",
+  "modifications": "none; imported and called directly",
+  "retrieved_date": "2026-10-18"
+}

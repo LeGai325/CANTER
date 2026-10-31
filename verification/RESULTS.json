@@ -1,0 +1,191 @@
+{
+  "schema": "canter-review-validation-v1",
+  "suite": "core",
+  "passed": true,
+  "tests_run": 220,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    {
+      "test": "test_real_payload_acceptance_and_path_rtt (tests.test_native_network.TransportTests.test_real_payload_acceptance_and_path_rtt)",
+      "reason": "Live RTT observations require the Linux TCP_INFO layout"
+    },
+    {
+      "test": "test_independent_processes_share_concurrency_spacing_and_total (tests.test_shared_provider_budget.SharedBudgetProcessTests.test_independent_processes_share_concurrency_spacing_and_total)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_process_death_releases_local_slot_without_refunding_or_inventing_usage (tests.test_shared_provider_budget.SharedBudgetProcessTests.test_process_death_releases_local_slot_without_refunding_or_inventing_usage)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_different_pid_namespace_rejects_before_owner_recovery_or_release (tests.test_shared_provider_budget.SharedBudgetTests.test_different_pid_namespace_rejects_before_owner_recovery_or_release)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_existing_state_rejects_limit_changes_and_config_hash_mismatch (tests.test_shared_provider_budget.SharedBudgetTests.test_existing_state_rejects_limit_changes_and_config_hash_mismatch)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_fifo_cancelled_waiter_does_not_consume_or_block_next (tests.test_shared_provider_budget.SharedBudgetTests.test_fifo_cancelled_waiter_does_not_consume_or_block_next)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_legacy_ledger_without_namespace_column_is_not_migrated (tests.test_shared_provider_budget.SharedBudgetTests.test_legacy_ledger_without_namespace_column_is_not_migrated)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_locked_ledger_wait_is_cancelable_and_never_commits_after_timeout (tests.test_shared_provider_budget.SharedBudgetTests.test_locked_ledger_wait_is_cancelable_and_never_commits_after_timeout)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_missing_namespace_marker_or_metadata_row_is_not_adopted (tests.test_shared_provider_budget.SharedBudgetTests.test_missing_namespace_marker_or_metadata_row_is_not_adopted)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_no_refund_idempotent_release_and_unknown_usage (tests.test_shared_provider_budget.SharedBudgetTests.test_no_refund_idempotent_release_and_unknown_usage)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_partial_usage_retains_known_lower_bound_and_unknown_total (tests.test_shared_provider_budget.SharedBudgetTests.test_partial_usage_retains_known_lower_bound_and_unknown_total)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_start_spacing_survives_new_client_instances (tests.test_shared_provider_budget.SharedBudgetTests.test_start_spacing_survives_new_client_instances)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_cancelled_running_http_keeps_global_slot_until_actual_terminal (tests.test_shared_provider_budget.SharedProviderIntegrationTests.test_cancelled_running_http_keeps_global_slot_until_actual_terminal)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_conflicting_explicit_quota_and_wrong_model_are_rejected (tests.test_shared_provider_budget.SharedProviderIntegrationTests.test_conflicting_explicit_quota_and_wrong_model_are_rejected)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_http_502_then_independent_success_preserves_unknown_tokens (tests.test_shared_provider_budget.SharedProviderIntegrationTests.test_http_502_then_independent_success_preserves_unknown_tokens)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_identity_and_auth_guards_still_close_and_release_quota (tests.test_shared_provider_budget.SharedProviderIntegrationTests.test_identity_and_auth_guards_still_close_and_release_quota)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_quota_budget_exhaustion_prevents_http (tests.test_shared_provider_budget.SharedProviderIntegrationTests.test_quota_budget_exhaustion_prevents_http)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_task_deadline_cancels_quota_wait_and_never_dispatches_later (tests.test_shared_provider_budget.SharedProviderIntegrationTests.test_task_deadline_cancels_quota_wait_and_never_dispatches_later)",
+      "reason": "Linux /proc boot identity and PID namespaces required"
+    },
+    {
+      "test": "test_changed_completed_status_is_rejected (tests.test_parallel_execution.ParallelExecutionTests.test_changed_completed_status_is_rejected)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_changed_inputs_or_code_cannot_mix_with_completed_results (tests.test_parallel_execution.ParallelExecutionTests.test_changed_inputs_or_code_cannot_mix_with_completed_results)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_completed_jobs_are_verified_and_skipped (tests.test_parallel_execution.ParallelExecutionTests.test_completed_jobs_are_verified_and_skipped)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_disallowed_plans_rejected_before_launch (tests.test_parallel_execution.ParallelExecutionTests.test_disallowed_plans_rejected_before_launch)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_existing_common_lock_blocks_launch (tests.test_parallel_execution.ParallelExecutionTests.test_existing_common_lock_blocks_launch)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_existing_worker_output_is_never_overwritten (tests.test_parallel_execution.ParallelExecutionTests.test_existing_worker_output_is_never_overwritten)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_failed_job_stops_other_group_and_preserves_attempt (tests.test_parallel_execution.ParallelExecutionTests.test_failed_job_stops_other_group_and_preserves_attempt)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_failed_predecessor_stops_wait_without_lock_or_worker (tests.test_parallel_execution.ParallelExecutionTests.test_failed_predecessor_stops_wait_without_lock_or_worker)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_missing_and_prepared_predecessors_keep_waiting_until_terminal_failure (tests.test_parallel_execution.ParallelExecutionTests.test_missing_and_prepared_predecessors_keep_waiting_until_terminal_failure)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_predecessors_must_all_finish_before_lock_or_launch (tests.test_parallel_execution.ParallelExecutionTests.test_predecessors_must_all_finish_before_lock_or_launch)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_shared_quota_configuration_change_cannot_reuse_completed_jobs (tests.test_parallel_execution.ParallelExecutionTests.test_shared_quota_configuration_change_cannot_reuse_completed_jobs)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_successful_parent_with_lingering_helper_fails_and_cleans_group (tests.test_parallel_execution.ParallelExecutionTests.test_successful_parent_with_lingering_helper_fails_and_cleans_group)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_two_agent_jobs_require_explicit_common_quota_and_receive_same_identity (tests.test_parallel_execution.ParallelExecutionTests.test_two_agent_jobs_require_explicit_common_quota_and_receive_same_identity)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_two_agent_quota_rejects_old_sources_and_mismatched_model (tests.test_parallel_execution.ParallelExecutionTests.test_two_agent_quota_rejects_old_sources_and_mismatched_model)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_two_jobs_share_lock_overlap_and_descendants_inherit_disjoint_affinity (tests.test_parallel_execution.ParallelExecutionTests.test_two_jobs_share_lock_overlap_and_descendants_inherit_disjoint_affinity)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_virtualenv_interpreter_symlink_is_not_dereferenced_in_command (tests.test_parallel_execution.ParallelExecutionTests.test_virtualenv_interpreter_symlink_is_not_dereferenced_in_command)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_zero_exit_without_completed_status_is_failure (tests.test_parallel_execution.ParallelExecutionTests.test_zero_exit_without_completed_status_is_failure)",
+      "reason": "Linux with at least two allowed CPUs required"
+    },
+    {
+      "test": "test_zero_model_job_requires_zero_call_attestation (tests.test_parallel_execution.ParallelExecutionTests.test_zero_model_job_requires_zero_call_attestation)",
+      "reason": "Linux with at least two allowed CPUs required"
+    }
+  ],
+  "failure_details": [],
+  "seconds": 21.177,
+  "environment": {
+    "python": "3.12.14",
+    "system": "Darwin",
+    "architecture": "arm64",
+    "dependencies": {
+      "httpx": "0.28.1",
+      "ujson": "5.11.0"
+    }
+  },
+  "external_network_allowed": false,
+  "blocked_external_destinations": [],
+  "scope": "local fixtures and mocked models; no paid API, dataset download, or paper benchmark",
+  "modules": [
+    "test_native_control",
+    "test_rolling_knn",
+    "test_native_telemetry",
+    "test_native_agent",
+    "test_native_agent_v2",
+    "test_native_agent_v3",
+    "test_native_network",
+    "test_native_e4",
+    "test_native_role_micro",
+    "test_study_protocol",
+    "test_study_data",
+    "test_native_study_recovery",
+    "test_native_warmup",
+    "test_native_workload",
+    "test_native_demo",
+    "test_provider_deadline",
+    "test_provider_block_outcomes",
+    "test_shared_provider_budget",
+    "test_parallel_execution",
+    "test_network_initialization_lock",
+    "test_review_portability"
+  ]
+}

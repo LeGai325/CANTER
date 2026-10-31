@@ -1,0 +1,16 @@
+{
+  "protocol": "abc-directional-v1",
+  "tasks_per_benchmark": 20,
+  "repetitions": 2,
+  "seed": 20261015,
+  "observation_seconds": 180,
+  "loads": [
+    {"name": "higher_capacity", "capacity_kbit": 12000},
+    {"name": "limited_capacity", "capacity_kbit": 2000}
+  ],
+  "variants": {
+    "A": {"policy": "progressive", "evidence_window_seconds": {"hotpotqa": 4, "nq": 8}, "final_reserve_seconds": 8},
+    "B": {"policy": "progressive", "evidence_window_seconds": {"hotpotqa": 30, "nq": 30}, "final_reserve_seconds": 30},
+    "C": {"policy": "progressive_no_time_gate", "evidence_window_seconds": {"hotpotqa": 30, "nq": 30}, "final_reserve_seconds": 30}
+  }
+}

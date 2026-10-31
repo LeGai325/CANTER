@@ -1,0 +1,92 @@
+{
+  "protocol": "native-paper-batch-demo-v2",
+  "dataset_adapter": "provided-context-v1",
+  "data_root": "data",
+  "task_pool": 100,
+  "hotpot_file": "hotpot_dev_distractor_v1.json",
+  "nq_file": "nq_dev_00_1119.jsonl",
+  "nq_structured_passages": true,
+  "nq_passage_words": 700,
+  "nq_overlap_words": 0,
+  "nq_max_passages": null,
+  "deadline_seconds": 75,
+  "acquisition_seconds": 45,
+  "window_seconds": 95,
+  "max_model_calls": 5,
+  "max_total_api_calls": 541,
+  "max_output_tokens": 768,
+  "max_prompt_tokens": 48000,
+  "max_parallel_reads": 4,
+  "model_concurrency": 8,
+  "max_fetch_attempts": 6,
+  "max_body_bytes": 262144,
+  "object_cap": 131072,
+  "tool_timeout": 30,
+  "global_slots": 12,
+  "per_task_slots": 4,
+  "wait_limit": 5,
+  "delta": 0.1,
+  "knn_k": 5,
+  "knn_p": 0.9,
+  "knn_max_records": 200,
+  "knn_history_seconds": 300,
+  "bootstrap_group_limit": 1,
+  "telemetry_interval": 0.1,
+  "queue_normalization_bytes": 65536,
+  "background_object_bytes": 1024,
+  "light_capacity_kbit": 12000,
+  "bottleneck_capacity_kbit": 64,
+  "delay_ms": 10,
+  "drr_weights": {
+    "Q0": 4,
+    "Q1": 4,
+    "Q2": 1,
+    "Q3": 1,
+    "BG": 2
+  },
+  "development_service_targets": {
+    "max_background_loss": 0.05,
+    "min_effective_otd": 0.9,
+    "max_agent_wire_bytes_per_arrival": 262144
+  },
+  "telemetry_max_age_seconds": 3,
+  "telemetry_window_seconds": 30,
+  "background_release_interval_seconds": 0.5,
+  "background_max_inflight": 16,
+  "warmup_seconds": 30,
+  "warmup_concurrency": 2,
+  "warmup_passes": 2,
+  "light_tasks_per_benchmark": 2,
+  "arrival_plan": {
+    "interval_seconds": 2,
+    "initial_delay_seconds": 0,
+    "burst_size": 2
+  },
+  "workload_selection": {
+    "seed": 20261018,
+    "evaluation_counts": {
+      "hotpotqa": {
+        "bridge": 4,
+        "comparison": 4
+      },
+      "nq": {
+        "short_consensus": 6,
+        "long_only": 1,
+        "null": 1
+      }
+    },
+    "warmup_counts": {
+      "hotpotqa": {
+        "bridge": 1,
+        "comparison": 1
+      },
+      "nq": {
+        "short_consensus": 2
+      }
+    },
+    "exclude_task_ids": [
+      "hotpot-5a8b57f25542995d1e6f1371",
+      "nq--3290814144789249484"
+    ]
+  }
+}

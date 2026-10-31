@@ -1,0 +1,48 @@
+{
+  "schema": "e4-overflow-boundary-prespecified-v1",
+  "preceding_e4_directory": "outputs/e4_formal_hqa_b00_bottleneck_full_20261019",
+  "formal_directory": "outputs/study150_formal_20261019_r1",
+  "sequence_status": "outputs/study150_sequence_20261019/STATUS.json",
+  "capacity_kbit": 64,
+  "delay_ms": 10,
+  "tail_seconds": 30,
+  "mode_order": ["shared", "qos"],
+  "api_calls": 0,
+  "purpose": "Independent engineering check of a bounded protocol control operation overflowing into Q1; no native QA role coverage or stable performance advantage claim.",
+  "release_basis": "One fixed Q1 request at zero and one fixed overflowing control operation 0.25 seconds later; no selection based on observed queue peaks or outcomes.",
+  "size_basis": "32 KiB response and 1 KiB control bound repeat the already tested overflow contract under the predeclared formal bottleneck network; no size sweep.",
+  "requests": [
+    {
+      "request_id": "fixed-q1-competitor",
+      "task_id": "independent-overflow-fixture",
+      "role": "Q1",
+      "target": "/independent-overflow/fixed-content",
+      "release_seconds": 0.0,
+      "payload_bytes": 32768,
+      "connection_mode": "fresh_http11_connection_close",
+      "control_bound_bytes": null,
+      "role_evidence": {
+        "source": "synthetic independent required-content competitor",
+        "native_qa_role": false,
+        "fixture_continuation_awaits_result": true
+      }
+    },
+    {
+      "request_id": "bounded-control-overflow",
+      "task_id": "independent-overflow-fixture",
+      "role": "Q0",
+      "target": "/independent-overflow/control-continuation",
+      "release_seconds": 0.25,
+      "payload_bytes": 32768,
+      "connection_mode": "fresh_http11_connection_close",
+      "control_bound_bytes": 1024,
+      "role_evidence": {
+        "source": "synthetic bounded protocol status response followed by overflow content",
+        "control_body_bound_bytes": 1024,
+        "native_qa_role": false,
+        "ordinary_agent_search_or_read": false,
+        "overflow_must_move_to_q1_before_enqueue": true
+      }
+    }
+  ]
+}

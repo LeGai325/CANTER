@@ -1,0 +1,1354 @@
+{
+  "schema": "native-e4-mixed-source-fixture-v1",
+  "source_kind": "hybrid_real_q1_synthetic_protocol_q0",
+  "source_directory": "outputs/native_batch_demo_20261018_r2/units/bottleneck_full/attempt-0001",
+  "source_files": {
+    "tool_requests.json": "ed93f43a28fbf80b8fe6850dab7c7be3ba4c9caaa88333f9afcd64936e3cfbfc",
+    "RESULT.json": "94156eff78b93a67c88b22d529946f24a9285f335e950643584be22bc3b12e7a"
+  },
+  "requests": [
+    {
+      "request_id": "synthetic-protocol-status-001",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/001",
+      "release_seconds": 1.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5a77152355429966f1a36c2e:m0:r0",
+      "task_id": "hotpot-5a77152355429966f1a36c2e",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=hotpot-5a77152355429966f1a36c2e&query=What+Are+Little+Girls+Made+Of+nursery+rhyme+Roud+Folk+Song+Index",
+      "release_seconds": 1.1312115844339132,
+      "payload_bytes": 3252,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57504",
+      "source_request_bytes": 181
+    },
+    {
+      "request_id": "bottleneck_full:nq-3071184395682844971:m0:r0",
+      "task_id": "nq-3071184395682844971",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=nq-3071184395682844971&query=how+many+copies+of+Sir+Gawain+and+the+Green+Knight+exist",
+      "release_seconds": 1.3051005564630032,
+      "payload_bytes": 11404,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57514",
+      "source_request_bytes": 164
+    },
+    {
+      "request_id": "synthetic-protocol-status-002",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/002",
+      "release_seconds": 2.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5abc0a5d5542993f40c73c64:m0:r0",
+      "task_id": "hotpot-5abc0a5d5542993f40c73c64",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=hotpot-5abc0a5d5542993f40c73c64&query=Freakonomics+documentary",
+      "release_seconds": 2.8516853004693985,
+      "payload_bytes": 3441,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51080",
+      "source_request_bytes": 141
+    },
+    {
+      "request_id": "synthetic-protocol-status-003",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/003",
+      "release_seconds": 3.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq-6986236841860957647:m0:r0",
+      "task_id": "nq-6986236841860957647",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=nq-6986236841860957647&query=where+did+they+film+High+School+Musical+2",
+      "release_seconds": 3.068563835695386,
+      "payload_bytes": 3197,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51086",
+      "source_request_bytes": 149
+    },
+    {
+      "request_id": "synthetic-protocol-status-004",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/004",
+      "release_seconds": 4.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq-3071184395682844971:m1:r0",
+      "task_id": "nq-3071184395682844971",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq-3071184395682844971&id=cee0a9403cfd14fe5745c376",
+      "release_seconds": 4.386665703728795,
+      "payload_bytes": 4696,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51092",
+      "source_request_bytes": 127
+    },
+    {
+      "request_id": "bottleneck_full:nq-3071184395682844971:m1:r1",
+      "task_id": "nq-3071184395682844971",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq-3071184395682844971&id=be124a5d6fbcf2624e3b6281",
+      "release_seconds": 4.386783266440034,
+      "payload_bytes": 4621,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51094",
+      "source_request_bytes": 127
+    },
+    {
+      "request_id": "synthetic-protocol-status-005",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/005",
+      "release_seconds": 5.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5ae4a3265542995ad6573de5:m0:r0",
+      "task_id": "hotpot-5ae4a3265542995ad6573de5",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=hotpot-5ae4a3265542995ad6573de5&query=Buck-Tick+band+origin",
+      "release_seconds": 5.015502942726016,
+      "payload_bytes": 3291,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51098",
+      "source_request_bytes": 138
+    },
+    {
+      "request_id": "bottleneck_full:nq-3723628014502752965:m0:r0",
+      "task_id": "nq-3723628014502752965",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=nq-3723628014502752965&query=who+wrote+Can%27t+Get+You+Out+of+My+Head+lyrics",
+      "release_seconds": 5.178002934902906,
+      "payload_bytes": 10275,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51112",
+      "source_request_bytes": 155
+    },
+    {
+      "request_id": "synthetic-protocol-status-006",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/006",
+      "release_seconds": 6.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq-6986236841860957647:m1:r0",
+      "task_id": "nq-6986236841860957647",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq-6986236841860957647&id=64e723a020171e76084fc869",
+      "release_seconds": 6.266871081665158,
+      "payload_bytes": 5567,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51124",
+      "source_request_bytes": 127
+    },
+    {
+      "request_id": "bottleneck_full:nq-6986236841860957647:m1:r1",
+      "task_id": "nq-6986236841860957647",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq-6986236841860957647&id=dd32e0c3a2364633bfa29e3e",
+      "release_seconds": 6.26699255220592,
+      "payload_bytes": 4762,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51136",
+      "source_request_bytes": 127
+    },
+    {
+      "request_id": "bottleneck_full:nq-6986236841860957647:m1:r2",
+      "task_id": "nq-6986236841860957647",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq-6986236841860957647&id=2014f114a006e26aab178fa0",
+      "release_seconds": 6.267071940004826,
+      "payload_bytes": 5645,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51138",
+      "source_request_bytes": 127
+    },
+    {
+      "request_id": "bottleneck_full:nq-6986236841860957647:m1:r3",
+      "task_id": "nq-6986236841860957647",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq-6986236841860957647&id=490e9f56786492320e44ca6a",
+      "release_seconds": 6.267142305150628,
+      "payload_bytes": 7662,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51142",
+      "source_request_bytes": 127
+    },
+    {
+      "request_id": "bottleneck_full:nq--8129143127887276431:m0:r0",
+      "task_id": "nq--8129143127887276431",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=nq--8129143127887276431&query=scandal+episode+coming+out",
+      "release_seconds": 6.814100855961442,
+      "payload_bytes": 7628,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51144",
+      "source_request_bytes": 135
+    },
+    {
+      "request_id": "synthetic-protocol-status-007",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/007",
+      "release_seconds": 7.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5a8a43eb5542996c9b8d5e82:m0:r0",
+      "task_id": "hotpot-5a8a43eb5542996c9b8d5e82",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=hotpot-5a8a43eb5542996c9b8d5e82&query=Australian+boarding+school+opened+by+Prime+Minister+named+after+London+school",
+      "release_seconds": 7.106049353256822,
+      "payload_bytes": 3542,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51160",
+      "source_request_bytes": 194
+    },
+    {
+      "request_id": "synthetic-protocol-status-008",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/008",
+      "release_seconds": 8.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5a7be2595542997c3ec972ac:m0:r0",
+      "task_id": "hotpot-5a7be2595542997c3ec972ac",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=hotpot-5a7be2595542997c3ec972ac&query=Emma+Bull+birth+year",
+      "release_seconds": 8.95459384098649,
+      "payload_bytes": 3465,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51164",
+      "source_request_bytes": 137
+    },
+    {
+      "request_id": "synthetic-protocol-status-009",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/009",
+      "release_seconds": 9.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq--3632974700795137148:m0:r0",
+      "task_id": "nq--3632974700795137148",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=nq--3632974700795137148&query=owner+of+Reading+Football+Club",
+      "release_seconds": 9.089342284947634,
+      "payload_bytes": 5442,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51178",
+      "source_request_bytes": 139
+    },
+    {
+      "request_id": "synthetic-protocol-status-010",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/010",
+      "release_seconds": 10.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5ab96ab755429970cfb8eacd:m0:r0",
+      "task_id": "hotpot-5ab96ab755429970cfb8eacd",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=hotpot-5ab96ab755429970cfb8eacd&query=Ellie+Goulding+Delirium+album+writers",
+      "release_seconds": 10.892006617039442,
+      "payload_bytes": 3468,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51194",
+      "source_request_bytes": 154
+    },
+    {
+      "request_id": "synthetic-protocol-status-011",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/011",
+      "release_seconds": 11.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq--5944168583179757903:m0:r0",
+      "task_id": "nq--5944168583179757903",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=nq--5944168583179757903&query=who+did+Shakespeare+write+Hamlet+for",
+      "release_seconds": 11.038030100986362,
+      "payload_bytes": 16586,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:51202",
+      "source_request_bytes": 145
+    },
+    {
+      "request_id": "synthetic-protocol-status-012",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/012",
+      "release_seconds": 12.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5adddccd5542997dc7907069:m0:r0",
+      "task_id": "hotpot-5adddccd5542997dc7907069",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=hotpot-5adddccd5542997dc7907069&query=Apple+Remote+designed+to+interact+with+program+device+control",
+      "release_seconds": 12.925369633361697,
+      "payload_bytes": 3430,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57766",
+      "source_request_bytes": 178
+    },
+    {
+      "request_id": "synthetic-protocol-status-013",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/013",
+      "release_seconds": 13.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq--4843437099290518220:m0:r0",
+      "task_id": "nq--4843437099290518220",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=nq--4843437099290518220&query=where+in+the+constitution+is+federalism+established",
+      "release_seconds": 13.037312880158424,
+      "payload_bytes": 8633,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57772",
+      "source_request_bytes": 160
+    },
+    {
+      "request_id": "synthetic-protocol-status-014",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/014",
+      "release_seconds": 14.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-015",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/015",
+      "release_seconds": 15.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5ab29c24554299449642c932:m0:r0",
+      "task_id": "hotpot-5ab29c24554299449642c932",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=hotpot-5ab29c24554299449642c932&query=Giuseppe+Verdi+opera+composer",
+      "release_seconds": 15.049764472991228,
+      "payload_bytes": 3422,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57782",
+      "source_request_bytes": 146
+    },
+    {
+      "request_id": "bottleneck_full:nq--7890654922490959584:m0:r0",
+      "task_id": "nq--7890654922490959584",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/search?task=nq--7890654922490959584&query=where+are+Firestone+tires+manufactured+countries",
+      "release_seconds": 15.106300616636872,
+      "payload_bytes": 4055,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57786",
+      "source_request_bytes": 157
+    },
+    {
+      "request_id": "synthetic-protocol-status-016",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/016",
+      "release_seconds": 16.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq-3723628014502752965:m1:r0",
+      "task_id": "nq-3723628014502752965",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq-3723628014502752965&id=b03eb397f173bca1e4358e88",
+      "release_seconds": 16.253694839775562,
+      "payload_bytes": 4028,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57802",
+      "source_request_bytes": 127
+    },
+    {
+      "request_id": "bottleneck_full:nq-3723628014502752965:m1:r1",
+      "task_id": "nq-3723628014502752965",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq-3723628014502752965&id=7f5d1bd1170ccc41782da221",
+      "release_seconds": 16.25381498783827,
+      "payload_bytes": 5138,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57810",
+      "source_request_bytes": 127
+    },
+    {
+      "request_id": "synthetic-protocol-status-017",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/017",
+      "release_seconds": 17.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-018",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/018",
+      "release_seconds": 18.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-019",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/019",
+      "release_seconds": 19.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-020",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/020",
+      "release_seconds": 20.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-021",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/021",
+      "release_seconds": 21.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq--3632974700795137148:m1:r0",
+      "task_id": "nq--3632974700795137148",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq--3632974700795137148&id=42d2309dcdda9cd3335088c7",
+      "release_seconds": 21.31372069194913,
+      "payload_bytes": 7603,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57822",
+      "source_request_bytes": 128
+    },
+    {
+      "request_id": "bottleneck_full:nq--3632974700795137148:m1:r1",
+      "task_id": "nq--3632974700795137148",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq--3632974700795137148&id=1ee8ef6548c9efe50fe7b60a",
+      "release_seconds": 21.313876228407025,
+      "payload_bytes": 5128,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:57830",
+      "source_request_bytes": 128
+    },
+    {
+      "request_id": "synthetic-protocol-status-022",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/022",
+      "release_seconds": 22.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-023",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/023",
+      "release_seconds": 23.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-024",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/024",
+      "release_seconds": 24.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-025",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/025",
+      "release_seconds": 25.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-026",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/026",
+      "release_seconds": 26.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5ab96ab755429970cfb8eacd:m1:r0",
+      "task_id": "hotpot-5ab96ab755429970cfb8eacd",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=hotpot-5ab96ab755429970cfb8eacd&id=9e988cd371ffe3667c06f5fb",
+      "release_seconds": 26.994134806096554,
+      "payload_bytes": 653,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:37958",
+      "source_request_bytes": 136
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5ab96ab755429970cfb8eacd:m1:r1",
+      "task_id": "hotpot-5ab96ab755429970cfb8eacd",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=hotpot-5ab96ab755429970cfb8eacd&id=0d3151d693a0017e23309b2b",
+      "release_seconds": 26.99425329081714,
+      "payload_bytes": 1178,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:37972",
+      "source_request_bytes": 136
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5ab96ab755429970cfb8eacd:m1:r2",
+      "task_id": "hotpot-5ab96ab755429970cfb8eacd",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=hotpot-5ab96ab755429970cfb8eacd&id=a8e84a9b55f49471c5c89ab6",
+      "release_seconds": 26.994344180449843,
+      "payload_bytes": 739,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:37982",
+      "source_request_bytes": 136
+    },
+    {
+      "request_id": "synthetic-protocol-status-027",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/027",
+      "release_seconds": 27.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5ab96ab755429970cfb8eacd:m1:r3",
+      "task_id": "hotpot-5ab96ab755429970cfb8eacd",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=hotpot-5ab96ab755429970cfb8eacd&id=73860ad4edab82b36f04c1d9",
+      "release_seconds": 27.22041443735361,
+      "payload_bytes": 248,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:37992",
+      "source_request_bytes": 136
+    },
+    {
+      "request_id": "synthetic-protocol-status-028",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/028",
+      "release_seconds": 28.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5adddccd5542997dc7907069:m1:r0",
+      "task_id": "hotpot-5adddccd5542997dc7907069",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=hotpot-5adddccd5542997dc7907069&id=dcb37cdc837195e1126a3def",
+      "release_seconds": 28.330517238005996,
+      "payload_bytes": 729,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:37996",
+      "source_request_bytes": 136
+    },
+    {
+      "request_id": "synthetic-protocol-status-029",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/029",
+      "release_seconds": 29.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq--4843437099290518220:m1:r0",
+      "task_id": "nq--4843437099290518220",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq--4843437099290518220&id=6b7a5b4230927ef1e8ae7ed6",
+      "release_seconds": 29.308058321475983,
+      "payload_bytes": 4498,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:38002",
+      "source_request_bytes": 128
+    },
+    {
+      "request_id": "bottleneck_full:hotpot-5adddccd5542997dc7907069:m1:r1",
+      "task_id": "hotpot-5adddccd5542997dc7907069",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=hotpot-5adddccd5542997dc7907069&id=12064a93be267c6495c6e76c",
+      "release_seconds": 29.64380836300552,
+      "payload_bytes": 599,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:38008",
+      "source_request_bytes": 136
+    },
+    {
+      "request_id": "bottleneck_full:nq--4843437099290518220:m1:r1",
+      "task_id": "nq--4843437099290518220",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq--4843437099290518220&id=5e60c3f94e70d5231c35b018",
+      "release_seconds": 29.73299426212907,
+      "payload_bytes": 4684,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:38014",
+      "source_request_bytes": 128
+    },
+    {
+      "request_id": "synthetic-protocol-status-030",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/030",
+      "release_seconds": 30.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-031",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/031",
+      "release_seconds": 31.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-032",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/032",
+      "release_seconds": 32.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq--4843437099290518220:m1:r2",
+      "task_id": "nq--4843437099290518220",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq--4843437099290518220&id=e6af70f72d4ca2ccfcd48a31",
+      "release_seconds": 32.5752728972584,
+      "payload_bytes": 6449,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:46182",
+      "source_request_bytes": 128
+    },
+    {
+      "request_id": "bottleneck_full:nq--4843437099290518220:m1:r3",
+      "task_id": "nq--4843437099290518220",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq--4843437099290518220&id=aa6db692bc680a777e0cc36e",
+      "release_seconds": 32.90963542088866,
+      "payload_bytes": 4482,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:46198",
+      "source_request_bytes": 128
+    },
+    {
+      "request_id": "synthetic-protocol-status-033",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/033",
+      "release_seconds": 33.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "synthetic-protocol-status-034",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/034",
+      "release_seconds": 34.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    },
+    {
+      "request_id": "bottleneck_full:nq--5944168583179757903:m1:r0",
+      "task_id": "nq--5944168583179757903",
+      "role": "Q1",
+      "role_evidence": {
+        "executor": "native-json-react-v3",
+        "awaits_result": true,
+        "cancellation_allows_native_continuation": false
+      },
+      "target": "/read?task=nq--5944168583179757903&id=8f3975c622779e86aaf36be5",
+      "release_seconds": 34.15600626543164,
+      "payload_bytes": 4232,
+      "connection_mode": "fresh_http11_connection_close",
+      "legacy_connection_mode_inferred": true,
+      "control_bound_bytes": null,
+      "source_status": "success",
+      "source_flow_id": "19001:46212",
+      "source_request_bytes": 128
+    },
+    {
+      "request_id": "synthetic-protocol-status-035",
+      "task_id": "independent-protocol-fixture",
+      "role": "Q0",
+      "target": "/independent-protocol/status/035",
+      "release_seconds": 35.0,
+      "payload_bytes": 1024,
+      "control_bound_bytes": 1024,
+      "connection_mode": "fresh_http11_connection_close",
+      "role_evidence": {
+        "source": "synthetic independent bounded protocol status/ack fixture",
+        "control_body_bound_bytes": 1024,
+        "ordinary_agent_search_or_read": false,
+        "native_qa_role": false
+      },
+      "source_status": "synthetic_fixture_not_a_native_tool_call"
+    }
+  ],
+  "request_manifest_sha256": "c32094d812f3f23faef5555aa4956fa8f84e6da166d7c9f0316e730743119581",
+  "roles": {
+    "Q1": 37,
+    "Q0": 35
+  },
+  "missing_roles": [],
+  "excluded_other_roles": [],
+  "unreplayable_requests": [],
+  "unresolved_q0_contracts": [],
+  "formal_q0_q1_ready": false,
+  "background_enabled": false,
+  "release_semantics": "real Q1 dispatch times unchanged; synthetic Q0 uses predeclared independent 1-second absolute grid; both groups identical",
+  "payload_semantics": "same declared response lengths; deterministic synthetic payload, no answer generation",
+  "limitation": "Controlled mixed-source mechanism microexperiment only. Q0 is synthetic and does not fill native QA role coverage or establish answer-quality benefits.",
+  "source_trace_file": "outputs/native_e4_actual_trace_20261018.json",
+  "source_trace_sha256": "bf0c732c028a6ba5b13d5c5efc064cafce0fab76fb28d72c2bdecfee17326031",
+  "source_native_request_manifest_sha256": "21aafc0a0c530c4a02e343772ffcf77b1e9e02574d3c45c4203089f937518c1b",
+  "native_role_coverage": {
+    "Q1": 37,
+    "Q0": 0
+  },
+  "synthetic_role_coverage": {
+    "Q0": 35
+  },
+  "missing_native_roles": [
+    "Q0"
+  ],
+  "synthetic_control_protocol": {
+    "body_bytes": 1024,
+    "body_bound_bytes": 1024,
+    "release_interval_seconds": 1.0,
+    "first_release_seconds": 1.0,
+    "last_release_seconds": 35.0,
+    "release_basis": "fixed integer-second grid covering the unchanged real Q1 dispatch window; no alignment to observed queue peaks or results",
+    "size_basis": "same 1024-byte bound already exercised in the independent Q0 transport smoke; no evidence or answer content",
+    "purpose": "independent controlled protocol status/ack operations, not relabeled native QA search/read",
+    "overflow": "not injected here; the existing Q0 overflow smoke separately checks full-operation completion"
+  },
+  "suggested_replay": {
+    "capacity_kbit": 256,
+    "delay_ms": 5,
+    "drain_seconds": 30,
+    "order": "shared,qos",
+    "basis": "same static capacity as the source directional replay; freeze before execution, do not tune after seeing benefit"
+  }
+}

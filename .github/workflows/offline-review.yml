@@ -1,0 +1,33 @@
+name: Offline review checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-core:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Verify distributed source files
+        run: python tools/verify_package.py
+      - name: Install package and verify dependencies
+        run: |
+          python -m pip install .
+          python -m pip check
+      - name: Run the local controller example
+        run: python tools/run_offline_demo.py
+      - name: Run local fixtures and mechanism checks
+        run: python tools/run_review_checks.py --output verification/local-ci.json

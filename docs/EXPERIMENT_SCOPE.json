@@ -1,0 +1,29 @@
+{
+  "schema": "canter-release-scope-v1",
+  "method_implementation": {
+    "provenance": "authors confirm reuse in the subsequent expanded experiments",
+    "independent_large_run_reproduction": false
+  },
+  "bundled_study": {
+    "questions_per_benchmark": 150,
+    "block_size": 50,
+    "blocks_per_configuration": 3,
+    "dataset_condition_policy_configurations": 28,
+    "distinct_questions_across_datasets": 300,
+    "agent_task_executions": 4200,
+    "recommended_config": "configs/study150_formal_20261019_r3.json",
+    "raw_results_included": false
+  },
+  "paper_reported_study": {
+    "questions_per_benchmark": 3000,
+    "block_size": 100,
+    "blocks_per_configuration": 30,
+    "dataset_condition_policy_configurations": 28,
+    "distinct_questions_across_datasets": 6000,
+    "agent_task_executions": 84000,
+    "exact_large_run_config_included": false,
+    "frozen_task_ids_included": false,
+    "raw_results_included": false
+  },
+  "metadata_only": true
+}

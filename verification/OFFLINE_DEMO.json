@@ -1,0 +1,29 @@
+{
+  "example": "synthetic admission and accounting",
+  "passed": true,
+  "results": [
+    {
+      "ok": true,
+      "value": "local evidence",
+      "error": null
+    },
+    {
+      "ok": true,
+      "value": "local evidence",
+      "error": null
+    },
+    {
+      "ok": false,
+      "value": null,
+      "error": "fetch_attempt_budget"
+    }
+  ],
+  "operations_executed": 2,
+  "attempts_charged": 2,
+  "accepted_body_bytes": 28,
+  "active_requests_after_completion": 0,
+  "reserved_bytes_after_completion": 0,
+  "answer_delivered": true,
+  "audit_violations": 0,
+  "scope": "local synthetic operations; no network, model, dataset, or paper metrics"
+}

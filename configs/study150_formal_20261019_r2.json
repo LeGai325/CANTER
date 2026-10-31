@@ -1,0 +1,149 @@
+{
+  "protocol": "paper150-e0-e1-e2-e4-v1",
+  "dataset_adapter": "provided-context-v1",
+  "data_root": "data",
+  "hotpot_file": "hotpot_dev_distractor_v1.json",
+  "nq_file": "nq_dev_00_1119.jsonl",
+  "nq_structured_passages": true,
+  "nq_passage_words": 700,
+  "nq_overlap_words": 0,
+  "nq_max_passages": null,
+  "deadline_seconds": 75,
+  "acquisition_seconds": 45,
+  "max_model_calls": 5,
+  "max_total_api_calls": 26001,
+  "max_output_tokens": 768,
+  "max_prompt_tokens": 48000,
+  "max_parallel_reads": 4,
+  "model_concurrency": 8,
+  "max_fetch_attempts": 6,
+  "max_body_bytes": 262144,
+  "object_cap": 131072,
+  "tool_timeout": 30,
+  "global_slots": 12,
+  "per_task_slots": 4,
+  "wait_limit": 5,
+  "delta": 0.1,
+  "knn_k": 5,
+  "knn_p": 0.9,
+  "knn_max_records": 200,
+  "knn_history_seconds": 300,
+  "bootstrap_group_limit": 1,
+  "telemetry_interval": 0.1,
+  "queue_normalization_bytes": 65536,
+  "background_object_bytes": 1024,
+  "delay_ms": 10,
+  "drr_weights": {
+    "Q0": 4,
+    "Q1": 4,
+    "Q2": 1,
+    "Q3": 1,
+    "BG": 2
+  },
+  "development_service_targets": {
+    "max_background_loss": 0.05,
+    "min_effective_otd": 0.9,
+    "max_agent_wire_bytes_per_arrival": 262144
+  },
+  "telemetry_max_age_seconds": 3,
+  "telemetry_window_seconds": 30,
+  "background_release_interval_seconds": 0.5,
+  "background_max_inflight": 16,
+  "warmup_seconds": 30,
+  "warmup_concurrency": 2,
+  "warmup_passes": 2,
+  "arrival_plan": {
+    "interval_seconds": 2,
+    "initial_delay_seconds": 0,
+    "burst_size": 2
+  },
+  "tasks_per_benchmark": 150,
+  "block_size": 50,
+  "study_manifest": "data/study150_20261018/MANIFEST.json",
+  "tokenizer_path": "data/tokenizer_glm52",
+  "seed": 20261018,
+  "workload_selection": {
+    "seed": 20261018
+  },
+  "observation_tail_seconds": 10,
+  "dynamic_minimum_arrival_span_seconds": 90,
+  "service_targets": {
+    "max_wire_bytes_per_arrival": 262144,
+    "max_background_loss": 0.05,
+    "min_effective_otd": 0.9,
+    "e0_max_quality_loss": 0.03
+  },
+  "recovery": {
+    "queue_absolute_tolerance_bytes": 4096,
+    "queue_relative_tolerance": 0.2,
+    "quality_absolute_tolerance": 0.05,
+    "otd_absolute_tolerance": 0.05,
+    "sustain_seconds": 30,
+    "task_bin_seconds": 15
+  },
+  "scenarios": {
+    "light": {
+      "capacity_kbit": 12000,
+      "arrival_plan": {
+        "interval_seconds": 2,
+        "burst_size": 1,
+        "initial_delay_seconds": 0
+      }
+    },
+    "bottleneck": {
+      "capacity_kbit": 64,
+      "arrival_plan": {
+        "interval_seconds": 2,
+        "burst_size": 2,
+        "initial_delay_seconds": 0
+      }
+    },
+    "overload": {
+      "capacity_kbit": 64,
+      "arrival_plan": {
+        "interval_seconds": 1,
+        "burst_size": 2,
+        "initial_delay_seconds": 0
+      }
+    },
+    "capacity": {
+      "capacity_kbit": 256,
+      "impaired_capacity_kbit": 64,
+      "arrival_plan": {
+        "interval_seconds": 3,
+        "burst_size": 1,
+        "initial_delay_seconds": 0
+      }
+    },
+    "background_burst": {
+      "capacity_kbit": 64,
+      "burst_release_interval_seconds": 0.25,
+      "arrival_plan": {
+        "interval_seconds": 3,
+        "burst_size": 1,
+        "initial_delay_seconds": 0
+      }
+    }
+  },
+  "protocol_status": "frozen 2026-10-19 r2: same tasks/groups/network/budgets; provider outages scored over all arrivals; complete block retained before recovery pause",
+  "fixed_budget_definition": "total accepted body-fetch attempts <= 2, failures and cancellations consume attempts",
+  "freeze_record": {
+    "parameter_policy": "No change from development defaults; not selected using full-controller ranking.",
+    "development_run": "outputs/study150_dev_20261019_r3",
+    "dynamic_preflight": "outputs/study150_dynamic_smoke_20261019_r1",
+    "dynamic_preflight_required_before_execution": true,
+    "calibration_notes": "docs/E2负载校准依据_20261019.md",
+    "formal_primary_only": true,
+    "native_qa_role_limitation": "Observed QA tool calls are Q1; independent synthetic Q0 evidence does not establish native Q0 coverage.",
+    "supersedes": "outputs/study150_formal_20261019_r1",
+    "revision_reason": "Separate ordinary provider task failures from integrity failures; prevent exclusion of arrived failures. No parameters selected by outcome ranking."
+  },
+  "provider_failure_policy": {
+    "version": "all-arrival-provider-outcomes-v2",
+    "ordinary_provider_failure": "All arrived tasks remain in denominator; missing/invalid answers score zero. A 504 or unknown remote terminal alone does not invalidate measured block.",
+    "stop_rule": "Retain failed_closed: stop new provider calls after unknown terminal. Complete arrival cohort and measurements, save valid block, then pause before the next block.",
+    "resume_rule": "Explicit reviewed resume performs one same-model response probe; preserve completed block, do not rerun its tasks; retain unknown terminal/usage and failed attempt costs.",
+    "invalid_block": "Model identity mismatch, exhausted experiment call budget, invalid measurement, or controller/protocol violation remain invalid.",
+    "prior_run": "R1 retained for diagnosis; R2 starts all primary cells afresh, no R1 scores selected or imported."
+  }
+}

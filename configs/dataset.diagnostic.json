@@ -1,0 +1,79 @@
+{
+  "data_root": "data",
+  "seed": 17,
+  "task_pool": 200,
+  "calibration_tasks": 12,
+  "final_calibration_tasks": 4,
+  "calibration_rates_kbit": [
+    128,
+    12000
+  ],
+  "calibration_background_bytes": 8192,
+  "ready_quantile": 0.95,
+  "minimum_final_reserve_seconds": 8.0,
+  "final_reserve_multiplier": 1.5,
+  "capacity_kbit": 12000,
+  "minimum_kbit": 128,
+  "delay_ms": 8,
+  "background_bytes": 8192,
+  "background_interval_seconds": 0.2,
+  "dynamic_network_script": [
+    [
+      0,
+      12000
+    ],
+    [
+      1,
+      2000
+    ],
+    [
+      4,
+      12000
+    ]
+  ],
+  "candidate_limit": 12,
+  "base_minimum": 1,
+  "base_attempts": 3,
+  "optional_limit": 11,
+  "optional_payload_budget": 12582912,
+  "per_document_bytes": 4194304,
+  "per_request_concurrency": 2,
+  "optional_slots": 4,
+  "base_slots": 4,
+  "extract_slots": 2,
+  "generator_slots": 2,
+  "input_tokens": 65536,
+  "per_evidence_tokens": 8192,
+  "output_tokens": 768,
+  "evidence_window_seconds": {
+    "hotpotqa": 8.0,
+    "nq": 30.0
+  },
+  "late_observation_seconds": 120.0,
+  "tool_timeout_seconds": 60.0,
+  "idle_wait_seconds": 0.25,
+  "control_interval_seconds": 0.02,
+  "telemetry_interval_seconds": 0.1,
+  "arrival_interval_seconds": 0.15,
+  "fixed_k_values": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "static_extra_k": 2,
+  "four_mode_thresholds": [
+    1,
+    2,
+    4
+  ],
+  "parameter_status": "dataset-repair diagnostic; fixed 60s final reserve; low/high capacities 128/12000kbit; not a formal efficacy study",
+  "queue_tracing": true,
+  "calibration_arrival_interval_seconds": 0.15,
+  "dataset_adapter": "provided-context-v1",
+  "hotpot_file": "hotpot_dev_distractor_v1.json",
+  "nq_file": "nq_dev_00_200.jsonl",
+  "observation_seconds": 180.0,
+  "task_selection": "development: skip historical first 40; 12 calibration; Hotpot next 8; NQ next 6 short_consensus and 2 of each other stratum; no outcome filtering",
+  "nq_max_passages": 12
+}

@@ -1,0 +1,19 @@
+{
+  "protocol": "bc-six-strategy-v1",
+  "tasks_per_benchmark": 20,
+  "repetitions": 2,
+  "seed": 20261015,
+  "observation_seconds": 180,
+  "loads": [
+    {"name": "higher_capacity", "capacity_kbit": 12000},
+    {"name": "limited_capacity", "capacity_kbit": 2000}
+  ],
+  "variants": {
+    "full_shared": {"policy": "full", "mode": "shared", "evidence_window_seconds": {"hotpotqa": 30, "nq": 30}, "final_reserve_seconds": 30},
+    "full_qos": {"policy": "full", "mode": "qos", "evidence_window_seconds": {"hotpotqa": 30, "nq": 30}, "final_reserve_seconds": 30},
+    "B_shared": {"policy": "progressive", "mode": "shared", "evidence_window_seconds": {"hotpotqa": 30, "nq": 30}, "final_reserve_seconds": 30},
+    "B_qos": {"policy": "progressive", "mode": "qos", "evidence_window_seconds": {"hotpotqa": 30, "nq": 30}, "final_reserve_seconds": 30},
+    "C_shared": {"policy": "progressive_no_time_gate", "mode": "shared", "evidence_window_seconds": {"hotpotqa": 30, "nq": 30}, "final_reserve_seconds": 30},
+    "C_qos": {"policy": "progressive_no_time_gate", "mode": "qos", "evidence_window_seconds": {"hotpotqa": 30, "nq": 30}, "final_reserve_seconds": 30}
+  }
+}
